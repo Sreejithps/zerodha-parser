@@ -2,6 +2,10 @@
 This script runs the application using a development server.
 It contains the definition of routes and views for the application.
 """
+import os
+import json
+import csv
+import time
 
 from flask import Flask, request, send_file
 app = Flask(__name__)
@@ -46,10 +50,6 @@ def hello():
             </html>'
 
 if __name__ == '__main__':
-    import os
-    import json
-    import csv
-    import time
     
     HOST = os.environ.get('SERVER_HOST', 'localhost')
     try:

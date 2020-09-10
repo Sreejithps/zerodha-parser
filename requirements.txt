@@ -1,4 +1,4 @@
 flask
 gunicorn==20.0.4
 json5==0.8.5
-csv
+unicodecsv==0.14.1

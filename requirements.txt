@@ -1,2 +1,4 @@
 flask
 gunicorn==20.0.4
+json
+csv
